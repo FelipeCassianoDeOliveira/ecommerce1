@@ -1,24 +1,27 @@
 /* CSS Document */
 
-
 /** area menu user **/
 header .menu-user{
 	height: 28px;
+	
 }
 header .menu-user .navbar-nav .nav-item i{
 	padding-right: 5px;
 }
 header .menu-user .navbar-nav .nav-item .nav-link{
 	color: #fff;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
 	
 /** area dropdown **/
 header .menu-user .navbar-nav .drop-user-conta .dropdown-menu{
 	margin-top: -5px;
 	padding-bottom: 18px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	width: 180px;
 }
 header .menu-user .navbar-nav .drop-user-conta .dropdown-menu .btn{
-	width: 120px;
+	width: 140px;
 	margin-left: 20px;
 	margin-top: 10px;
 }/** end dropdown **/
@@ -32,4 +35,67 @@ header .menu-user .navbar-nav .drop-user-conta .dropdown-menu .btn{
 .header-search-carrinho .search .form-inline{
 	height: 50px;
 	width: 450px;
+	border-radius: 30px;
 }
+.header-search-carrinho .search .form-control{
+	margin-left: 0px;
+	width: 400px;
+	height: 50px;
+	border-radius: 30px 0px 0px 30px;
+}
+.header-search-carrinho .search .btn{
+	border-radius: 0px 30px 30px 0px;
+	height: 50px;
+	width: 50px;
+}/** end area form search **/
+
+/** area compras **/
+.cart-section{
+	width: 200px;
+	text-align: center;
+}
+.cart-section .product-valor{
+	width: 120px;
+}
+.cart-section .product-valor span{
+	color: #fff;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 15pt;
+}
+.cart-section .cart-img-section{
+	border-style: solid;
+	border-color: #fff;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin-top: -3px;
+}
+.cart-section .cart-img-section i{
+	font-size: 20pt;
+}
+.cart-section .product-count{
+	background: none repeat scroll 0 0 black;
+	width: 30px;
+	height: 30px;
+	padding-top: 3px;
+	top: 38px;
+	right: 521px;
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	opacity: .8;
+}/** end area compras**/
+
+
+
+
+
+
+
+
+
+
+
+
+
