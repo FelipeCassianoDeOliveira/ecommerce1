@@ -1,0 +1,13 @@
+/* CSS Document */
+
+
+/** area menu user **/
+header .menu-user{
+	height: 28px;
+}
+header .menu-user .navbar-nav .nav-item i{
+	padding-right: 5px;
+}
+header .menu-user .navbar-nav .nav-item .nav-link{
+	color: #fff;
+}
