@@ -11,3 +11,25 @@ header .menu-user .navbar-nav .nav-item i{
 header .menu-user .navbar-nav .nav-item .nav-link{
 	color: #fff;
 }
+	
+/** area dropdown **/
+header .menu-user .navbar-nav .drop-user-conta .dropdown-menu{
+	margin-top: -5px;
+	padding-bottom: 18px;
+}
+header .menu-user .navbar-nav .drop-user-conta .dropdown-menu .btn{
+	width: 120px;
+	margin-left: 20px;
+	margin-top: 10px;
+}/** end dropdown **/
+
+/** aera search e carrinho **/
+	/** area logo **/
+.header-search-carrinho .navbar-brand:hover{
+	opacity: .7;
+}/** end area logo **/
+	/** area form search **/
+.header-search-carrinho .search .form-inline{
+	height: 50px;
+	width: 450px;
+}
