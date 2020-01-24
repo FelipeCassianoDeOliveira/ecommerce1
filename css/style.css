@@ -95,6 +95,7 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 /** area menu **/
 .area-menu{
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	border-bottom-style: ridge;
 }
 .area-menu .collapse ul li a{
 	color: #17a2b8;
