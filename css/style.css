@@ -85,11 +85,12 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 	height: 30px;
 	padding-top: 3px;
 	top: 38px;
-	right: 160px;
+	right: 155px;
 	text-align: center;
 	color: #fff;
 	display: inline-block;
 	opacity: .8;
+	position: absolute;
 }/** end area compras**/
 
 /** area menu **/
@@ -106,4 +107,19 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 }
 
 /** area slide **/
+.carousel{
+	padding-bottom: 80px;
+}
+.carousel .carousel-indicators  li{
+	background-color:  #333;
+	border-radius: 400px ;
+	height: 20px;
+	width: 20px;
+}
 
+.carousel .carousel-control-prev span{
+	font-size: 20pt;
+}
+.carousel .carousel-control-next span{
+	font-size: 20pt;
+}
