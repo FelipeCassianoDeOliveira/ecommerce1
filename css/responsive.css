@@ -1,2 +1,119 @@
 /* CSS Document */
 
+@media screen and (max-width:575.96px){
+	
+
+/** area menu user **/
+header .menu-user{
+	height: 28px;
+}
+header .menu-user .nav{
+	margin-left: 50px;
+}
+header .menu-user .nav .nav-item i{
+	padding-right: 5px;
+}
+header .menu-user .nav .nav-item .nav-link{
+	color: #fff;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+	
+/** area dropdown **/
+header .menu-user .nav .drop-user-conta .dropdown-menu{
+	margin-top: -5px;
+	padding-bottom: 18px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	width: 180px;
+}
+header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 10px;
+}/** end dropdown **/
+
+/** aera search e carrinho **/
+	/** area logo **/
+.header-search-carrinho .navbar-brand{
+	width: 50px;
+	margin-left: -230px;
+}
+.header-search-carrinho .navbar-brand:hover{
+	opacity: .7;
+}/** end area logo **/
+	/** area form search **/
+.header-search-carrinho .search{
+	background: #333;
+		visibility: hidden;
+}
+.header-search-carrinho .search .form-inline{
+	height: 50px;
+	width: 50px;
+	margin-left: 0px;
+	border-radius: 30px;
+	margin-top: 11px;
+
+}
+.header-search-carrinho .search .form-control{
+
+}
+.header-search-carrinho .search .btn{
+	
+}/** end area form search **/
+
+/** area compras **/
+.cart-section{
+	width: 220px;
+	margin-left: 40px;
+	text-align: center;
+	background: #333;
+	visibility: hidden;
+}
+.cart-section .product-valor{
+	width: 120px;
+	margin-left: 10px;
+	margin-top: 5px;
+	background: #E90B0F;
+}
+.cart-section .product-valor span{
+	color: #fff;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 15pt;
+}
+.cart-section .cart-img-section{
+	border-style: solid;
+	border-color: #fff;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	margin-top: -1px;
+	margin-left: 10px;
+}
+.cart-section .cart-img-section i{
+	font-size: 20pt;
+}
+.cart-section .product-count{
+	background: none repeat scroll 0 0 black;
+	width: 30px;
+	height: 30px;
+	padding-top: 3px;
+	top: 38px;
+	right: 160px;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	opacity: .8;
+}/** end area compras**/
+
+/** area menu **/
+.area-menu{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+.area-menu .collapse ul li a{
+	color: #17a2b8;
+}
+.area-menu .collapse ul li a:hover{
+	background-color: #17A2B8;
+	color: #fff;
+}
+
+}
