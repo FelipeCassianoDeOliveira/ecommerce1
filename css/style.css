@@ -2,8 +2,7 @@
 
 /** area menu user **/
 header .menu-user{
-	height: 28px;
-	
+	height: 35px;	
 }
 header .menu-user .nav .nav-item i{
 	padding-right: 5px;
@@ -12,7 +11,19 @@ header .menu-user .nav .nav-item .nav-link{
 	color: #fff;
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
-	
+
+/** area saudacao **/
+header .area-saudacao{
+	text-align: center;
+	right: -474px;
+}
+header .area-saudacao .row{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	height: 35px;
+}
+
+/** end area saudacao**/
+
 /** area dropdown **/
 header .menu-user .nav .drop-user-conta .dropdown-menu{
 	margin-top: -5px;
@@ -96,7 +107,7 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 /** area menu **/
 .area-menu{
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
-	border-bottom-style: ridge;
+	
 }
 .area-menu .collapse ul li a{
 	color: #17a2b8;
@@ -111,12 +122,38 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 	padding-bottom: 80px;
 }
 .carousel .carousel-indicators  li{
-	background-color:  #333;
+	background-color: #17A2B8 ;
 	border-radius: 400px ;
 	height: 20px;
 	width: 20px;
 }
 
+/** area das imagens**/
+.carousel .carousel-inner .slide1{
+	margin-left: 50px;
+}
+.carousel .carousel-inner .slide2{
+	margin-left: 115px;	
+}
+.carousel .carousel-inner .slide3{
+	margin-left: 100px;
+}
+.carousel .carousel-inner .slide4{
+	margin-left: 120px;
+}
+.carousel .carousel-inner .slide5{
+	margin-left: 100px;
+}
+.carousel .carousel-inner .slide6{
+	margin-left: 100px;
+}
+.carousel .carousel-inner .slide7{
+	margin-left: 140px;
+}
+.carousel .carousel-inner .slide8{
+	margin-left: 100px;
+}
+/** end area imagens  **/
 .carousel .carousel-control-prev span{
 	font-size: 20pt;
 	color: #333;
@@ -125,3 +162,27 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 	font-size: 20pt;
 	color: #333;
 }
+
+/** area promo **/
+.area-promo{
+	background-color: #fbfbfb;
+	color: #fff;
+  padding: 40px 0 40px;
+}
+.area-promo .sigle-promo{
+	font-size: 25px;
+	font-weight: 200;
+	padding: 20px 10px;
+	text-align: center;
+}
+.area-promo .sigle-promo i{
+	font-size: 50px;
+}
+.area-promo .promo1{background-color: #17A2B8;}
+.area-promo .promo2{background-color: #ffd900;}
+.area-promo .promo3{background-color: #fa8072;}
+.area-promo .promo4{background-color: #4abebd;}
+.area-promo .sigle-promo:hover{color:#fff; background-color: #333;}
+/** end area promo **/
+
+

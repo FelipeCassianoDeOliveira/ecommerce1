@@ -16,8 +16,10 @@
 		<link rel="stylesheet" href="css/responsive.css">
 		
 		<!-- font awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 	</head>
+	
 	<body>
 		<!-- area cabecalho-->
 		<header>
@@ -47,8 +49,17 @@
 							<i class="fa fa-envelope"></i>Contato</a>
 					</li>
 				</ul><!-- end area navbar user-->
-			</nav>
-		
+						<!-- area saudação-->
+				<div class="area-saudacao col-4" >
+					<div class="row justify-content-center ">
+						<p class="text-white p-1" id="saudacao1"></p>
+						<p class="text-white p-1" id="saudacao2"></p>
+						<p id="nomeUser" name="nomeUser" class="text-info p-1"></p>
+						<p class="text-white p-1" id="saudacao3"></p>
+					</div>
+				</div><!-- end area saudação-->
+			</nav><!-- end menu user-->
+
 			<!-- area search e carrinho -->
 			<div class="header-search-carrinho bg-info d-flex justify-content-center">
 				
@@ -111,8 +122,9 @@
 					</ul>
 				</div><!-- end area collapse -->
 			</nav><!-- end menu -->
+			
 		</div><!-- end area menu -->
-		
+		<hr/>
 		<!-- area slide-->
 		<div class="carousel" id="slide" dat-ride="carousel">
 			<!-- indicators -->
@@ -165,7 +177,9 @@
 					</a>
 				</div>
 				<div class="slide8 carousel-item ">
-					<img src="imagens/8.png" width="1100" height="350" alt="produto">
+					<a href="#">
+						<img src="imagens/8.png" width="1100" height="350" alt="produto">
+					</a>
 				</div>
 				
 					<!--carousel prev -->
@@ -184,9 +198,66 @@
 			</div><!--  end the slideshow-->	
 		</div><!-- end slide -->
 		
+		<!-- area promo-->
+		<div class="area-promo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-6">
+						<div class="sigle-promo promo1">
+							<i class="fa fa-refresh"></i>
+							<p>Retorno em 30 dias</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+					<div class="sigle-promo promo2">
+							<i class="fa fa-truck"></i>
+							<p>Frente grátis</p>
+						</div>
+			
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class=" sigle-promo promo3">
+							<i class="fa fa-lock"></i>
+							<p>Pagamento seguro</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="sigle-promo promo4">
+							<i class="fa fa-gift"></i>
+							<p>Presentes</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div><!-- end area promo-->
+		
 		<!-- area javascript -->
 		<script type="text/javascript">
-		
+			
+			// checando a hora para saudacao
+				var date = new Date()
+					if(date.getHours() >=0 && date.getHours()<12){
+						document.getElementById("saudacao1").innerHTML = "Olá, ";
+						document.getElementById("saudacao2").innerHTML = "bom dia";
+						document.getElementById("nomeUser").innerHTML = "Fulano";
+						document.getElementById("saudacao3").innerHTML = "seja bem-vindo";
+					}
+				    if(date.getHours() >=12 && date.getHours() <18){
+						document.getElementById("saudacao1").innerHTML = "Olá, ";
+						document.getElementById("saudacao2").innerHTML =  "boa tarde";
+						document.getElementById("nomeUser").innerHTML = "Fulano";
+						document.getElementById("saudacao3").innerHTML = "seja bem-vindo";
+					}
+					if(date.getHours() >=18 && date.getHours() <23){
+						document.getElementById("saudacao1").innerHTML = "Olá, ";
+						document.getElementById("saudacao2").innerHTML =  "boa noite";
+						document.getElementById("nomeUser").innerHTML = "Fulano";
+						document.getElementById("saudacao3").innerHTML = "seja bem-vindo";
+					}
+			//end checando a hora
+				
+				
+			
 		</script>
 	</body>
 </html>
