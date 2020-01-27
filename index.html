@@ -7,13 +7,15 @@
 		
 		<!-- bootstrap -->
 		 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-		 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		
 		
 		<!-- css custom -->
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.theme.default.css">
+	
 		
 		<!-- font awesome-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -237,114 +239,59 @@
 			<div class="titulo-area-produtos-recentes container text-center">
 				<h1> Produtos recentes </h1>
 			</div>
-			
-			<!-- carousel produtos  -->
-			<div id="carouselCard" class="carousel slide" data-ride="carousel">
-					
-				<!-- control carousel prev and next -->
-				<div class="control-prev-next container">
-					<div class="row">
-						<div class="col-xs-12 text-md-right lead">
-							<a class="btn btn-outline-dark prev" href="" title="go back">
-								<i class="fa fa-lg fa-chevron-left"></i>
-							</a>
-							<a class="btn btn-outline-dark next" href="" title="more">
-								<i class="fa fa-lg fa-chevron-right"></i>
-							</a>
-						</div>
-					</div>
-				</div><!-- end control carousel-->
-				
-				<!-- carousel inner -->
-				<div class="container p-t-0 m-t-2 carousel-inner">
-					<!-- carousel item-->
-					<div class="row row-equal carousel-item active m-t-0">
-						<div class="col-md-3">
-							<div class="card" style="width: 200px;">
-								<img class="card-img-top" src="imagens/produtos9.png" alt="card image">
-								<div class="card-body">
-									<h5 class="card-title text-center">Macacão liryChic</h5>
-									<h4 class="card-text text-info text-center">R$65,00 </h4>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="card" style="width: 200px;">
-								<img class="card-img-top" src="imagens/produtos11.png" alt="card image">
-								<div class="card-body">
-									<h5 class="card-title text-center">blusa liryChic</h5>
-									<h4 class="card-text text-info text-center">R$35,00 </h4>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="card" style="width: 200px;">
-								<img class="card-img-top" src="imagens/produtos14.png" alt="card image">
-								<div class="card-body">
-									<h5 class="card-title text-center">blusa liryChic</h5>
-									<h4 class="card-text text-info text-center">R$35,00 </h4>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="card" style="width: 200px;">
-								<img class="card-img-top" src="imagens/produtos17.png" alt="card image">
-								<div class="card-body">
-									<h5 class="card-title text-center">short liryChic</h5>
-									<h4 class="card-text text-info text-center">R$45,00 </h4>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row row-equal carousel-item">
-						<div class="col-md-3">
-							<div class="card" style="width: 200px;">
-								<img class="card-img-top" src="imagens/produto1.png" alt="card image">
-								<div class="card-body">
-									<h5 class="card-title text-center">conjunto liryChic</h5>
-									<h4 class="card-text text-info text-center">R$70,00 </h4>
-								</div>
-							</div>
-						</div>
-							<div class="col-md-3">
-							<div class="card" style="width: 200px;">
-								<img class="card-img-top" src="imagens/produtos7.png" alt="card image">
-								<div class="card-body">
-									<h5 class="card-title text-center">conjunto liryChic</h5>
-									<h4 class="card-text text-info text-center">R$80,00 </h4>
-								</div>
-							</div>
-						</div>
-							<div class="col-md-3">
-							<div class="card" style="width: 200px;">
-								<img class="card-img-top" src="imagens/produto5.png" alt="card image">
-								<div class="card-body">
-									<h5 class="card-title text-center">conjunto liryChic</h5>
-									<h4 class="card-text text-info text-center">R$70,00 </h4>
-								</div>
-							</div>
-						</div>
-							<div class="col-md-3">
-							<div class="card" style="width: 200px;">
-								<img class="card-img-top" src="imagens/produtos13.png" alt="card image">
-								<div class="card-body">
-									<h5 class="card-title text-center">macacão liryChic</h5>
-									<h4 class="card-text text-info text-center">R$70,00 </h4>
-								</div>
-							</div>
-						</div>
-					</div>	<!-- end carousel item-->
-				</div><!-- end carousel inner-->
-			</div><!-- end carousel produtos -->
+		
 		</div><!-- area produtos recentes -->
 		
 		<!-- area footer -->
-		<footer class="container-fluid border-top">
-			<div class="container">
-				<div class="row">
-					<h3>Navegação</h3>
+		<footer class="area-footer container-fluid border-top bg-dark p-5">
+			<div class="row">
+				<div class="col-sm-3 text-justify ">
+					<h4 class="text-white"><b>Sobre nós</b></h4>
+					<p class="text-secondary">A <span>LiryChic</span> é uma empresa de confecção de roupas, com marca própria e sempre fabricando roupas com qualidade. </p>
+				</div>
+				<div class="col-sm-3 text-justify">
+					<h4 class="text-white"><b>Boletim de Notícias</b></h4>
+					
+					<p class="text-secondary">
+					 Fique atualizado com as nossas últimas
+					</p>
+					<form class="form-inline" action="#">
+						<input type="email" class="form-control" placeholder="Seu email" id="userEmail">
+						<button type="submit" class="btn btn-info"><i class="fas fa-caret-right"></i></button>
+					</form>
+				</div>
+				<div class="col-sm-3 text-left">
+					<h4 class="text-white"><b>Contato</b></h4>
+					<p class="text-secondary">
+						<i class="fas fa-map-marker-alt text-danger"></i>
+						Rua Fake, 456, Fortaleza-CE, Brasil.
+					</p>
+					<p class="text-secondary">
+						<i class="fas fa-phone-alt text-info"></i>
+						+55 85 9-9999-4444
+					</p>
+					<p class="text-secondary">
+						<i class="far fa-envelope text-info"></i>
+							lirychic@gmail.com
+					</p>
+				</div>
+				<div class="col-sm-3 text-justify">
+					<h4 class="text-white"><b>Siga-nos</b></h4>
+					<p class="text-secondary"></p>
+					<p class="text-secondary">
+						<a href="#"><i class="fab fa-facebook-square p-2 text-info"></i></a>
+						<a href="#"><i class="fab fa-instagram p-2 text-danger"></i></a>
+						<a href="#"><i class="fab fa-whatsapp p-2 text-success"></i></a>
+					</p>
 				</div>
 			</div>
+			<!-- area copyright -->
+			<div class="area-copy container-fluid text-center p-3">
+				<span class="text-secondary">
+					Copyright &copy;<script>document.write(new Date().getFullYear());</script>.
+					Todos os direitos reservados - Liry Chic.
+				</span>
+			</div><!-- end copyright -->
 		</footer><!-- end area footer-->
 		
 		<!-- area javascript -->
@@ -374,15 +321,12 @@
 				
 			
 			//function corousel produtos recentes
-				(function($) {
-    				"use strict";
-
-				// manual carousel controls
-				$('.next').click(function(){ $('.carousel').carousel('next');return false; });
-				$('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
-
-			})(jQuery);
+		
 			
 		</script>
+		<script src="js/owl.carousel.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	</body>
 </html>

@@ -197,30 +197,24 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 	padding-bottom: 5px;
 }
 
-.produtos-recentes .carousel-inner .row-equal > div[class*='col-']{
-	display: flex;
-	flex: 1 0 auto;
+
+/** arae footer **/
+
+.area-footer{
+	
+}
+ .area-footer .row{
+	margin-left: 100px;
+}
+.area-footer .row .form-control{
+	border-radius: 10px 0px 0px 10px; 
+}
+.area-footer .row .form-inline .btn{
+	border-radius: 0px 10px 10px 0px; 
 }
 
-.row-equal .card {
-   width: 100%;
+.area-footer .area-copy{
+	margin-top: 20px;
 }
-
-/* ensure equal card height inside carousel */
-.carousel-inner>.row-equal.active, 
-.carousel-inner>.row-equal.next, 
-.carousel-inner>.row-equal.prev {
-    display: flex;
-}
-
-/* prevent flicker during transition */
-.carousel-inner>.row-equal.active.left, 
-.carousel-inner>.row-equal.active.right {
-    opacity: 0.5;
-    display: flex;
-}
-
-
-/* control image height */
 
 
