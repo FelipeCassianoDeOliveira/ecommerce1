@@ -231,6 +231,114 @@
 			</div>
 		</div><!-- end area promo-->
 		
+		<!-- area produtos recentes -->
+		<div class="produtos-recentes container-fluid">
+			
+			<div class="titulo-area-produtos-recentes container text-center">
+				<h1> Produtos recentes </h1>
+			</div>
+			
+			<!-- carousel produtos  -->
+			<div id="carouselCard" class="carousel slide" data-ride="carousel">
+					
+				<!-- control carousel prev and next -->
+				<div class="control-prev-next container">
+					<div class="row">
+						<div class="col-xs-12 text-md-right lead">
+							<a class="btn btn-outline-dark prev" href="" title="go back">
+								<i class="fa fa-lg fa-chevron-left"></i>
+							</a>
+							<a class="btn btn-outline-dark next" href="" title="more">
+								<i class="fa fa-lg fa-chevron-right"></i>
+							</a>
+						</div>
+					</div>
+				</div><!-- end control carousel-->
+				
+				<!-- carousel inner -->
+				<div class="container p-t-0 m-t-2 carousel-inner">
+					<!-- carousel item-->
+					<div class="row row-equal carousel-item active m-t-0">
+						<div class="col-md-3">
+							<div class="card" style="width: 200px;">
+								<img class="card-img-top" src="imagens/produtos9.png" alt="card image">
+								<div class="card-body">
+									<h5 class="card-title text-center">Macacão liryChic</h5>
+									<h4 class="card-text text-info text-center">R$65,00 </h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="card" style="width: 200px;">
+								<img class="card-img-top" src="imagens/produtos11.png" alt="card image">
+								<div class="card-body">
+									<h5 class="card-title text-center">blusa liryChic</h5>
+									<h4 class="card-text text-info text-center">R$35,00 </h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="card" style="width: 200px;">
+								<img class="card-img-top" src="imagens/produtos14.png" alt="card image">
+								<div class="card-body">
+									<h5 class="card-title text-center">blusa liryChic</h5>
+									<h4 class="card-text text-info text-center">R$35,00 </h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="card" style="width: 200px;">
+								<img class="card-img-top" src="imagens/produtos17.png" alt="card image">
+								<div class="card-body">
+									<h5 class="card-title text-center">short liryChic</h5>
+									<h4 class="card-text text-info text-center">R$45,00 </h4>
+								</div>
+							</div>
+						</div>
+					
+					</div>
+					<div class="row row-equal carousel-item">
+						<div class="col-md-3">
+							<div class="card" style="width: 200px;">
+								<img class="card-img-top" src="imagens/produto1.png" alt="card image">
+								<div class="card-body">
+									<h5 class="card-title text-center">conjunto liryChic</h5>
+									<h4 class="card-text text-info text-center">R$70,00 </h4>
+								</div>
+							</div>
+						</div>
+							<div class="col-md-3">
+							<div class="card" style="width: 200px;">
+								<img class="card-img-top" src="imagens/produtos7.png" alt="card image">
+								<div class="card-body">
+									<h5 class="card-title text-center">conjunto liryChic</h5>
+									<h4 class="card-text text-info text-center">R$80,00 </h4>
+								</div>
+							</div>
+						</div>
+							<div class="col-md-3">
+							<div class="card" style="width: 200px;">
+								<img class="card-img-top" src="imagens/produto5.png" alt="card image">
+								<div class="card-body">
+									<h5 class="card-title text-center">conjunto liryChic</h5>
+									<h4 class="card-text text-info text-center">R$70,00 </h4>
+								</div>
+							</div>
+						</div>
+							<div class="col-md-3">
+							<div class="card" style="width: 200px;">
+								<img class="card-img-top" src="imagens/produtos13.png" alt="card image">
+								<div class="card-body">
+									<h5 class="card-title text-center">macacão liryChic</h5>
+									<h4 class="card-text text-info text-center">R$70,00 </h4>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end carousel item-->
+				</div><!-- end carousel inner-->
+			</div><!-- end carousel produtos -->
+		</div><!-- area produtos recentes -->
 		<!-- area javascript -->
 		<script type="text/javascript">
 			
@@ -256,7 +364,16 @@
 					}
 			//end checando a hora
 				
-				
+			
+			//function corousel produtos recentes
+				(function($) {
+    				"use strict";
+
+				// manual carousel controls
+				$('.next').click(function(){ $('.carousel').carousel('next');return false; });
+				$('.prev').click(function(){ $('.carousel').carousel('prev');return false; });
+
+			})(jQuery);
 			
 		</script>
 	</body>

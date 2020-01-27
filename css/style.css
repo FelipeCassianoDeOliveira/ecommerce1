@@ -167,10 +167,11 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 .area-promo{
 	background-color: #fbfbfb;
 	color: #fff;
-  padding: 40px 0 40px;
+ 	padding: 40px 0 40px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
 .area-promo .sigle-promo{
-	font-size: 25px;
+	font-size: 21px;
 	font-weight: 200;
 	padding: 20px 10px;
 	text-align: center;
@@ -185,4 +186,44 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 .area-promo .sigle-promo:hover{color:#fff; background-color: #333;}
 /** end area promo **/
 
+/** area produtos recentes **/
+.produtos-recentes .titulo-area-produtos-recentes{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+
+.produtos-recentes .control-prev-next{
+	width: 85px;
+	margin-left: 1120px;
+	padding-bottom: 5px;
+}
+
+.produtos-recentes .carousel-inner .row-equal > div[class*='col-']{
+	display: flex;
+	flex: 1 0 auto;
+}
+
+.row-equal .card {
+   width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+
+
+/* control image height */
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
 
