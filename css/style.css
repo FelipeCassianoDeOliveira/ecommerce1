@@ -222,8 +222,5 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 
 
 /* control image height */
-.card-img-top-250 {
-    max-height: 250px;
-    overflow:hidden;
-}
+
 
