@@ -121,6 +121,14 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 .carousel{
 	padding-bottom: 80px;
 }
+.carousel .carousel-inner .carousel-caption{
+	width: 220px;
+	margin-left: 590px;
+	margin-top: -100px;
+}
+.carousel .carousel-inner .caption4{
+	margin-left: 720px;
+}
 .carousel .carousel-indicators  li{
 	background-color: #17A2B8 ;
 	border-radius: 400px ;
@@ -129,30 +137,11 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 }
 
 /** area das imagens**/
-.carousel .carousel-inner .slide1{
-	margin-left: 50px;
+.carousel .carousel-inner img{
+	margin-left: 122px;
+	margin-top: 30px;
 }
-.carousel .carousel-inner .slide2{
-	margin-left: 115px;	
-}
-.carousel .carousel-inner .slide3{
-	margin-left: 100px;
-}
-.carousel .carousel-inner .slide4{
-	margin-left: 120px;
-}
-.carousel .carousel-inner .slide5{
-	margin-left: 100px;
-}
-.carousel .carousel-inner .slide6{
-	margin-left: 100px;
-}
-.carousel .carousel-inner .slide7{
-	margin-left: 140px;
-}
-.carousel .carousel-inner .slide8{
-	margin-left: 100px;
-}
+
 /** end area imagens  **/
 .carousel .carousel-control-prev span{
 	font-size: 20pt;
@@ -190,7 +179,6 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 .produtos-recentes .titulo-area-produtos-recentes{
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
-
 .produtos-recentes .control-prev-next{
 	width: 85px;
 	margin-left: 1120px;
@@ -198,10 +186,26 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 }
 
 
+/** area card  **/
+.produtos-recentes  .row{
+	margin-left: 100px;
+	width: 70em;
+}
+.produtos-recentes .area-card .card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.produtos-recentes .area-card  .card a{
+	text-decoration: none;
+	
+}
+.produtos-recentes .area-card  .card img{
+	
+}
+
 /** arae footer **/
 
 .area-footer{
-	
+	margin-top: 150px;
 }
  .area-footer .row{
 	margin-left: 100px;
@@ -212,9 +216,8 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 .area-footer .row .form-inline .btn{
 	border-radius: 0px 10px 10px 0px; 
 }
-
 .area-footer .area-copy{
-	margin-top: 20px;
+	margin-top: 120px;
 }
 
 
