@@ -175,32 +175,34 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 .area-promo .sigle-promo:hover{color:#fff; background-color: #333;}
 /** end area promo **/
 
-/** area produtos recentes **/
-.produtos-recentes .titulo-area-produtos-recentes{
+/** area produtos-ofertas **/
+.produtos-ofertas .titulo-area-produtos-ofertas{
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 }
-.produtos-recentes .control-prev-next{
+.produtos-ofertas .control-prev-next{
 	width: 85px;
 	margin-left: 1120px;
 	padding-bottom: 5px;
 }
 
 
-/** area card  **/
-.produtos-recentes  .row{
+	/** area card  **/
+.produtos-ofertas  .row{
 	margin-left: 100px;
 	width: 70em;
 }
-.produtos-recentes .area-card .card{
+.produtos-ofertas .area-card .card{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-.produtos-recentes .area-card  .card a{
+.produtos-ofertas .area-card  .card a{
 	text-decoration: none;
 	
 }
-.produtos-recentes .area-card  .card img{
-	
-}
+
+
+/** area card carousel **/
+
+/** end area card carousel **/
 
 /** arae footer **/
 
