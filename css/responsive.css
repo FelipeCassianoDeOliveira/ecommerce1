@@ -68,3 +68,103 @@
 	
 	/** end slide **/
 }
+
+@media screen and (max-width:1280px){
+	/** area-menu-user **/
+	header .menu-user{
+	
+	}
+	header .menu-user .nav{
+		
+	}
+	header .menu-user .d-flex{
+		margin-left: 497px;
+		width: 300px;
+	}
+	/** end area-menu-user**/
+	
+	/** area-search-carrinho  **/
+	.header-search-carrinho .navbar-brand{
+		
+	}
+	.header-search-carrinho .search .form-inline{
+		width:  240px;
+		
+	}
+	.header-search-carrinho .search .btn{
+		margin-left: 240px;
+		margin-top: -50px;
+	}
+	/** end area-search-carrinho  **/
+	
+	/** area compras **/
+	.cart-section .product-count{
+	background: none repeat scroll 0 0 black;
+	width: 30px;
+	height: 30px;
+	padding-top: 3px;
+	top: 40px;
+	right: 260px;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	opacity: .8;
+	position: absolute;
+}
+	/** end area compras**/
+
+	/** area slide  **/
+	.carousel .carousel-inner .carousel-item img{
+		width: 620px;
+		margin-left: -20px;
+	}
+	.carousel-inner .slide1{
+		margin-left: -40px;
+	}
+	.carousel .carousel-control-prev{
+		background: #333;
+		height: 40px;
+		width: 40px;
+		border-radius: 40px;
+		margin-top: 150px;
+	}
+	
+	.carousel .carousel-control-next{
+		background: #333;
+		height: 40px;
+		width: 40px;
+		border-radius: 40px;
+		margin-top: 150px;
+	}
+	
+	
+	/** end slide **/
+
+	
+	/** area ofertas **/
+	
+	.produtos-ofertas .area-card{
+		margin-left: 55px;
+	}
+	
+	/** arae footer **/
+
+.area-footer{
+	margin-top: 150px;
+}
+ .area-footer .row{
+	margin-left: 20px;
+}
+
+.area-footer .row .form-control{
+	border-radius: 10px 0px 0px 10px; 
+}
+.area-footer .row .form-inline .btn{
+	border-radius: 0px 10px 10px 0px; 
+}
+.area-footer .area-copy{
+	margin-top: 120px;
+}
+}
+
+@media screen and (max-width:){}
