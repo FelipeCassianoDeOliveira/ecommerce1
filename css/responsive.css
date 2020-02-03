@@ -171,24 +171,38 @@
 @media (max-width: 380px){
 	/** area-menu-user **/
 	header .menu-user{
-		height: 200px;
+		height: 100px;
 	}
 	header .menu-user .nav{
-		width: 20px;
+		width: 360px;
+		padding-left: 12px;
+		font-size: 11pt;
+		margin-top: -10px;
 	}
+	
+
+	
 	header .menu-user .d-flex{
-		margin-left: 497px;
-		width: 300px;
+		margin-left: 10px;
 	}
 	/** end area-menu-user**/
 	
 	/** area-search-carrinho  **/
-	.header-search-carrinho .navbar-brand{
+	.header-search-carrinho{
+		height: 130px;
 		
 	}
-	.header-search-carrinho .search .form-inline{
-		width:  240px;
+	.header-search-carrinho .navbar-brand{
+		visibility: hidden;
+	}
+	.header-search-carrinho .search {
+
+	
 		
+	}
+	
+	.header-search-carrinho .search .form-inline {
+			
 	}
 	.header-search-carrinho .search .btn{
 		margin-left: 240px;
@@ -197,13 +211,17 @@
 	/** end area-search-carrinho  **/
 	
 	/** area compras **/
+	.cart-section{
+		margin-top: 65px;
+		margin-left: -200px;
+	}
 	.cart-section .product-count{
 	background: none repeat scroll 0 0 black;
 	width: 30px;
 	height: 30px;
 	padding-top: 3px;
-	top: 40px;
-	right: 260px;
+	top: 165px;
+	right: 80px;
 	text-align: center;
 	color: #fff;
 	display: inline-block;
@@ -211,6 +229,11 @@
 	position: absolute;
 }
 	/** end area compras**/
+	
+	/** area nav-collapse **/
+	.nav-collapse .collapse ul{
+		
+	}
 
 	/** area slide  **/
 	.carousel .carousel-inner .carousel-item img{
@@ -267,4 +290,4 @@
 }
 	
 	
-}
+
