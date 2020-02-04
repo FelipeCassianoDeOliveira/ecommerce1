@@ -109,48 +109,19 @@ header .menu-user .nav .drop-user-conta .dropdown-menu .btn{
 	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
 	
 }
-.area-menu .collapse ul li a{
-	color: #17a2b8;
+.area-menu .collapse .navbar-nav .nav-item .nav-link{
+	color: #333;
+	border-radius: 8px 8px 8px 8px;
 }
-.area-menu .collapse ul li a:hover{
+.area-menu .collapse .navbar-nav .nav-item .nav-link:hover{
 	background-color: #17A2B8;
 	color: #fff;
 }
 
 /** area slide **/
-.carousel{
-	padding-bottom: 80px;
-}
-.carousel .carousel-inner .carousel-caption{
-	width: 220px;
-	margin-left: 590px;
-	margin-top: -100px;
-}
-.carousel .carousel-inner .caption4{
-	margin-left: 720px;
-}
-.carousel .carousel-indicators  li{
-	background-color: #17A2B8 ;
-	border-radius: 400px ;
-	height: 20px;
-	width: 20px;
-}
 
-/** area das imagens**/
-.carousel .carousel-inner img{
-	margin-left: 122px;
-	margin-top: 30px;
-}
 
-/** end area imagens  **/
-.carousel .carousel-control-prev span{
-	font-size: 20pt;
-	color: #333;
-}
-.carousel .carousel-control-next span{
-	font-size: 20pt;
-	color: #333;
-}
+/** end araea slide **/
 
 /** area promo **/
 .area-promo{

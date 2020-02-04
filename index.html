@@ -21,6 +21,10 @@
 		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	
+		<style type="text/css">
+		
+		</style>
+		
 	</head>
 	
 	<body>
@@ -68,7 +72,7 @@
 				
 				<!-- logo -->
 				<a class="navbar-brand" href="index.html">
-					<img src="imagens/logo.png" alt="logo lirychic">
+					<img src="imagens/logo03.png" alt="logo lirychic">
 				</a><!-- end logo-->
 				
 				<!-- nav form search -->
@@ -117,8 +121,8 @@
 				
 				<!-- area collapse -->
 				<div class="collapse navbar-collapse" id="menuCollapse">
-					<ul class="nav nav-pills p-1">
-						<li class="nav-item"><a class="nav-link active bg-info" href="index.html">Inicio</a></li>
+					<ul class="navbar-nav">
+						<li class="nav-item"><a class="nav-link active bg-info text-white" href="index.html">Inicio</a></li>
 						<li class="nav-item"><a class="nav-link" href="#">Página da loja</a></li>
 						<li class="nav-item"><a class="nav-link" href="#">Carrinho</a></li>
 						<li class="nav-item"><a class="nav-link" href="#">Categoria</a></li>
@@ -129,60 +133,54 @@
 		</div><!-- end area menu -->
 		<hr/>
 		<!-- area slide-->
-		<div class="carousel " id="slide" dat-ride="carousel">
+		<div id="slideCarousel" class="carousel slide" data-ride="carousel">
 			<!-- indicators -->
-			<ul class="carousel-indicators">
-				<li data-target="#slide" data-slide-to="0" class="active"></li>
-				<li data-target="#slide" data-slide-to="1" ></li>
-				<li data-target="#slide" data-slide-to="2" ></li>
-				<li data-target="#slide" data-slide-to="3" ></li>
-				<li data-target="#slide" data-slide-to="4" ></li>
-				<li data-target="#slide" data-slide-to="5" ></li>
-				<li data-target="#slide" data-slide-to="6" ></li>
-				<li data-target="#slide" data-slide-to="7" ></li>
+			<ul class="carousel-indicators ">
+				<li data-target="#slideCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#slideCarousel" data-slide-to="1"></li>
+				<li data-target="#slideCarousel" data-slide-to="2"></li>
+				<li data-target="#slideCarousel" data-slide-to="3"></li>
+				<li data-target="#slideCarousel" data-slide-to="4"></li>
+				<li data-target="#slideCarousel" data-slide-to="5"></li>
+				<li data-target="#slideCarousel" data-slide-to="6"></li>
+				<li data-target="#slideCarousel" data-slide-to="7"></li>
 			</ul><!-- end indicators-->
 			
-			<!-- the slideshow-->
-			<div class="carousel-inner ">
-				<div class="slide1 carousel-item active ">
-					
+			<!-- slideshow-->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="imagens/1.png" alt="slide1" >
 				</div>
-				<div class="slide2 carousel-item ">
-						
+				<div class="carousel-item">
+					<img src="imagens/2.png" alt="slide1">
 				</div>
-				<div class="slide3 carousel-item ">
-				
+				<div class="carousel-item">
+					<img src="imagens/3.png" alt="slide1" >
 				</div>
-				<div class="slide4 carousel-item ">
-				
+				<div class="carousel-item">
+					<img src="imagens/4.png" alt="slide1" >
 				</div>
-				<div class="slide5 carousel-item ">
-					
+				<div class="carousel-item">
+					<img src="imagens/5.png" alt="slide1" >
 				</div>
-				<div class="slide6 carousel-item ">
-				
+				<div class="carousel-item">
+					<img src="imagens/6.png" alt="slide1" >
 				</div>
-				<div class="slide7 carousel-item ">
-				
+				<div class="carousel-item">
+					<img src="imagens/7.png" alt="slide1" >
 				</div>
-				<div class="slide8 carousel-item ">
+				<div class="carousel-item">
+					<img src="imagens/8.png" alt="slide1" >
+				</div>
+			</div><!--  end slideshow-->
 			
-				</div>
-				
-					<!--carousel prev -->
-					<a href="#slide" data-slide="prev">
-						<div class="carousel-control-prev">
-							<span class="fas fa-angle-left "></span>
-						</div>
-					</a><!-- end carousel prev -->
-				
-					<!-- carousel next-->
-					<a href="#slide" data-slide="next">
-						<div class="container carousel-control-next">
-							<span class="fas fa-angle-right"></span>
-						</div>
-					</a><!-- end carousel next-->
-			</div><!--  end the slideshow-->	
+			<!-- controls prev and next -->
+			<a class="carousel-control-prev" href="#slideCarousel" data-slide="prev">
+				<span class="fas fa-chevron-circle-left text-dark" style="font-size: 29pt;"></span>
+			</a>
+			<a class="carousel-control-next" href="#slideCarousel" data-slide="next">
+				<span class="fas fa-chevron-circle-right text-dark" style="font-size: 29pt;"></span>
+			</a>
 		</div><!-- end slide -->
 		
 		<!-- area promo-->
@@ -226,7 +224,7 @@
 			</div>
 			<!-- item card -->
 			<!-- area card produtos recentes-->
-			<div class="area-card row p">
+			<div class="area-card row">
 				<div class="col-sm-3">
 					<div class="card" style="width: 255px; height: 380px;">
 						<div class="card-body">
@@ -276,7 +274,7 @@
 					</div>
 				</div>	
 			</div>
-			<div class="area-card row p-2">
+			<div class="area-card row p">
 				<div class="col-sm-3">
 					<div class="card" style="width: 255px; height: 380px;">
 						<div class="card-body">
@@ -341,11 +339,11 @@
 		<!-- area footer -->
 		<footer class="area-footer container-fluid border-top bg-dark p-5">
 			<div class="row">
-				<div class="col text-justify ">
+				<div class="coluna1 col text-justify ">
 					<h4 class="text-white"><b>Sobre nós</b></h4>
 					<p class="text-secondary">A <span>LiryChic</span> é uma empresa de confecção de roupas, com marca própria e sempre fabricando roupas com qualidade. </p>
 				</div>
-				<div class="col text-justify">
+				<div class="coluna2 col text-justify ">
 					<h4 class="text-white"><b>Boletim de Notícias</b></h4>
 					
 					<p class="text-secondary">
@@ -356,7 +354,7 @@
 						<button type="submit" class="btn btn-info"><i class="fas fa-caret-right"></i></button>
 					</form>
 				</div>
-				<div class="col text-left">
+				<div class="coluna3 col text-left coluna3">
 					<h4 class="text-white"><b>Contato</b></h4>
 					<p class="text-secondary">
 							<i class="fas fa-map-marker-alt text-danger"></i>
@@ -371,7 +369,7 @@
 							lirychic@gmail.com
 					</p>
 				</div>
-				<div class="col-sm-2 text-justify">
+				<div class="coluna4 col-sm-2 text-justify coluna4">
 					<h4 class="text-white"><b>Siga-nos</b></h4>
 					<p class="text-secondary"></p>
 					<p class="text-secondary">
