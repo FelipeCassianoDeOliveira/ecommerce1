@@ -287,6 +287,19 @@
 		width: 300px;
 	}
 	
+	
+	.area-footer .row .coluna3 h4 {
+		text-align: center;
+	}
+	.area-footer .row .coluna3 p {
+		text-align: center;
+	}
+	.area-footer .row .coluna4 h4 {
+		text-align: center;
+	}
+	.area-footer .row .coluna4 p {
+		text-align: center;
+	}
 .area-footer .row .form-control{
 	border-radius: 10px 0px 0px 10px; 
 	width: 133px;
